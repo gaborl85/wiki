@@ -1,0 +1,6 @@
+- type:: hub
+- namespace:: Wiki/Explanation
+- updated:: 2026-06-07
+- ## Explanation
+	- Add child pages below as your wiki grows.
+	- Example: `[[Wiki/Explanation/SubTopic]]` -- Description of subtopic
