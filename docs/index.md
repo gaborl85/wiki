@@ -18,7 +18,7 @@ Hands-on, learn-by-doing guides. "How to [action]" with step-by-step instruction
 
 Solve a specific, real-world problem. "How to [problem]" with practical steps.
 
-(No how-to guides yet. Promoted from research as knowledge stabilizes.)
+- [[How to Clone and Initialize an LLM Wiki for Your Team]] — Step-by-step guide for setting up a personal or team wiki by cloning the template repo and using a Claude prompt. Get a fully configured wiki in 5-10 minutes.
 
 ---
 
