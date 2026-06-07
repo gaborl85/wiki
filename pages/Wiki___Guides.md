@@ -1,0 +1,6 @@
+- type:: hub
+- namespace:: Wiki/Guides
+- updated:: 2026-06-07
+- ## Guides
+	- Add child pages below as your wiki grows.
+	- Example: `[[Wiki/Guides/SubTopic]]` -- Description of subtopic
