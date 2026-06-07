@@ -1,6 +1,0 @@
-- type:: hub
-- namespace:: Wiki/Reference
-- updated:: 2026-06-07
-- ## Reference
-	- Add child pages below as your wiki grows.
-	- Example: `[[Wiki/Reference/SubTopic]]` -- Description of subtopic
