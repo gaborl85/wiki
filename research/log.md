@@ -4,6 +4,34 @@
 
 ---
 
+## [2026-06-07] ingest | Start here - Diátaxis in five minutes (article)
+
+**Source:** articles/Start here - Diátaxis in five minutes - Diátaxis.md  
+**Key takeaways:**
+- Diátaxis organizes documentation into four types: Tutorials, How-to Guides, Reference, Explanation
+- Organized along two axes: Action/Cognition + Study/Work
+- Pragmatic framework emphasizing iteration over theory
+- Four-step implementation: examine → identify → select → execute
+
+**Pages created:**
+- [[Diátaxis Framework]] (entity) — the framework, four types, two axes, implementation approach
+- [[Diátaxis and Best Practices]] (topic) — how Diátaxis structure and best practices work together
+
+**Connections & insights:**
+- Fills coverage gap from previous lint pass
+- Complements [[Documentation Best Practices]] — Diátaxis answers "what type?" while best practices answer "how to write?"
+- Four types naturally map to reader needs at different stages
+- Framework aligns with the wiki's own `/docs/` structure (tutorials, how-to-guides, explanations, reference)
+- Shows how [[Technical Documentation]] types map to Diátaxis
+
+**Notes:**
+- Source was partial (stub file); fetched full content from https://diataxis.fr/start-here/
+- Added [[Daniele Procida]] as author in entity metadata
+
+**Tags:** #diataxis #documentation #framework #structure
+
+---
+
 ## [2026-06-07] ingest | What is technical documentation? (article)
 
 **Source:** articles/What is technical documentation_ Examples, templates and how to write it – GitBook Blog.md  
