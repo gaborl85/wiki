@@ -5,7 +5,7 @@ created: 2026-06-07
 last_updated: 2026-06-07
 tags: [documentation, writing, process, workflow]
 sources: ["What is technical documentation_ Examples, templates and how to write it – GitBook Blog.md"]
-related: ["[[Technical Documentation]]", "[[Documentation Best Practices]]"]
+related: ["[[Technical Documentation]]", "[[Documentation Best Practices]]", "[[Diátaxis Framework]]", "[[Diátaxis and Best Practices]]"]
 ---
 
 # Technical Documentation Writing Process
