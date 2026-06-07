@@ -8,7 +8,6 @@ memory_path:
 
 namespaces:
   - Tutorials
-  - How-to
-  - Guides
+  - How-to-Guides
   - Explanation
   - Reference
