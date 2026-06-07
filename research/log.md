@@ -4,6 +4,36 @@
 
 ---
 
+## [2026-06-07] synthesis | Documentation Taxonomies
+
+**Event:** Created synthesis topic clarifying the relationship between two documentation type systems  
+**Trigger:** Lint pass identified potential contradiction between GitBook's 3 types and Diátaxis's 4 types
+
+**Key insight:** The two systems are orthogonal, not contradictory:
+- **GitBook's audience-based taxonomy** (Product/Developer/Process) answers "Who reads this?"
+- **Diátaxis's task-based taxonomy** (Tutorials/How-to/Reference/Explanation) answers "What is the reader doing?"
+
+**Synthesis shows:**
+- Both systems operate at different organizational levels (macro vs. micro)
+- They work together: each Diátaxis type can exist within each GitBook audience category
+- Practical example: how "Error Budgets" becomes 3 audience-based docs + 4 task-based pages
+- When to use each system (infrastructure vs. content design)
+- Complete documentation strategy uses both + best practices
+
+**Pages referenced:** 
+- [[Technical Documentation]] — provides the GitBook 3-type framework
+- [[Diátaxis Framework]] — provides the 4-type framework
+- [[Documentation Best Practices]] — execution layer for both systems
+
+**Status:** Resolved the apparent contradiction. Wiki is now coherent across three levels:
+1. What documentation is (Technical Documentation entity)
+2. How to structure it (Diátaxis Framework entity + taxonomies topic)
+3. How to write it well (Best Practices + Writing Process topics)
+
+**Tags:** #taxonomy #framework #synthesis #contradiction-resolved
+
+---
+
 ## [2026-06-07] ingest | Start here - Diátaxis in five minutes (article)
 
 **Source:** articles/Start here - Diátaxis in five minutes - Diátaxis.md  
