@@ -1,6 +1,6 @@
 # Research Index
 
-**Last updated:** 2026-06-07 (2 sources ingested, 6 pages created)
+**Last updated:** 2026-06-11 (3 sources ingested, 7 pages created)
 
 A catalog of all research pages, organized by type. The LLM reads this first when answering queries to find relevant pages.
 
@@ -10,6 +10,7 @@ A catalog of all research pages, organized by type. The LLM reads this first whe
 
 - [[Technical Documentation]] — written content explaining products, systems, APIs, processes. Serves developers, customers, and internal teams. (1 source, created 2026-06-07)
 - [[Diátaxis Framework]] — pragmatic documentation framework organizing content into four types (Tutorials, How-to Guides, Reference, Explanation) along two axes (Action/Cognition, Study/Work). (1 source, created 2026-06-07)
+- [[Site Reliability Engineering]] — engineering discipline for achieving appropriate, sustainable reliability. Origins at Google. Core practices: SLI/SLO/Error Budgets, blameless postmortems, toil elimination. (1 source, created 2026-06-11)
 
 ---
 
@@ -32,7 +33,7 @@ A catalog of all research pages, organized by type. The LLM reads this first whe
 
 - **Books:** 0 sources
 - **Papers:** 0 sources
-- **Articles:** 2 sources (GitBook: Technical Documentation guide, Diátaxis: Start here)
+- **Articles:** 3 sources (GitBook: Technical Documentation guide, Diátaxis: Start here, Microsoft Learn: Intro to SRE)
 - **Transcripts:** 0 sources
 - **Videos:** 0 sources
 - **Presentations:** 0 sources
@@ -40,11 +41,14 @@ A catalog of all research pages, organized by type. The LLM reads this first whe
 - **Tools:** 0 sources
 - **Datasets:** 0 sources
 
-**Total:** 2 sources
+**Total:** 3 sources
 
 ---
 
 ## Recent Updates
+
+- 2026-06-11: Supervised ingest of Microsoft Learn SRE Introduction → 1 entity
+  - [[Site Reliability Engineering]] (entity) — definition, core principles, virtuous cycles, toil elimination, implementation strategy
 
 - 2026-06-07: Created [[Documentation Taxonomies]] topic (synthesis)
   - Clarified the two type systems: audience-based (GitBook) vs. task-based (Diátaxis)

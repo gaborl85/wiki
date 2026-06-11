@@ -4,6 +4,31 @@
 
 ---
 
+## [2026-06-11] ingest | Intro to Site Reliability Engineering (articles)
+
+**Source:** articles/mslearn/sre/Develop_a_Site_Reliability_Engineering_strategy/intro_to_sre/ (5 training modules)  
+**Author:** Orin Thomas (Microsoft Learn)
+
+**Key takeaways:**
+- SRE is an engineering discipline for achieving *appropriate* (not perfect), *sustainable* reliability
+- Three pillars: Reliability focus, Appropriate/pragmatic levels, Sustainability for people
+- Originated at Google in 2003 as "what a software engineer would design for operations"
+- Two virtuous cycles: (1) SLI/SLO/Error Budgets, (2) Blameless Postmortems
+- Toil elimination: target 50% reactive ops / 50% project work
+- Incremental implementation: start with monitoring, then SLI/SLO conversations
+
+**Pages created:**
+- [[Site Reliability Engineering]] (entity) — comprehensive overview of definition, core principles, key practices, and implementation strategy
+
+**Connections & insights:**
+- Fresh area; no prior SRE coverage in wiki
+- Foundational material suitable as reference for future SRE-related queries
+- Complements existing [[Technical Documentation]] and [[Documentation Taxonomies]] work with operational/reliability focus
+
+**Tags:** #sre #operations #reliability #virtuous-cycles #toil
+
+---
+
 ## [2026-06-07] synthesis | Documentation Taxonomies
 
 **Event:** Created synthesis topic clarifying the relationship between two documentation type systems  
