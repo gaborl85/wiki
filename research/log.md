@@ -4,6 +4,35 @@
 
 ---
 
+## [2026-06-12] ingest | fwupd Firmware Update Failure Case Study (personal notes)
+
+**Source:** sources/notes/2026-06-12-fwupd-update-failure-ubuntu-seed-permission-denied.md  
+**Context:** Dell Latitude 5521 running Ubuntu with Snapd; firmware update blocked by permission denied on read-only EFI partition.
+
+**Key takeaways:**
+- **Troubleshooting methodology focus:** Systematic diagnosis from symptom → root cause through layer-by-layer verification of assumptions
+- **Error vs. root cause:** "Permission denied" is symptom; root cause is read-only ESP mount (design constraint)
+- **Investigation pattern:** Verify mount points → verify boot mode/hardware → verify actual mount options → trace to root cause
+- **Design constraint:** Snapd mounts EFI partition read-only by design for system integrity; this blocks in-place firmware updates
+- **Remediation trade-offs:** Live USB method (safe, requires reboot) vs. in-place remount (fast, may fail by design)
+
+**Pages created:**
+- [[fwupd-permission-denied-case-study]] (synthesis) — full case study emphasizing troubleshooting methodology
+- [[Systematic Linux Troubleshooting Methodology]] (topic) — extracted methodology for broader reuse
+- [[fwupd]] (entity) — firmware update tool, requirements, constraints
+- [[EFI System Partition]] (entity) — ESP role, mounts, firmware update requirements
+- [[Ubuntu Snapd Architecture]] (entity) — system design, immutability constraint, impact on firmware updates
+
+**Connections & insights:**
+- First troubleshooting case study in the wiki; establishes pattern for future case studies
+- Demonstrates how error diagnosis requires understanding system design and constraints, not just permission bits
+- Methodology is reusable across Linux troubleshooting scenarios (filesystem, permissions, mounts, architecture)
+- Snapd architecture is intentional design choice; not a bug, but a constraint requiring workarounds
+
+**Tags:** #troubleshooting #firmware #fwupd #ubuntu #snapd #case-study #methodology #efi
+
+---
+
 ## [2026-06-11] ingest | Intro to Site Reliability Engineering (articles)
 
 **Source:** articles/mslearn/sre/Develop_a_Site_Reliability_Engineering_strategy/intro_to_sre/ (5 training modules)  
