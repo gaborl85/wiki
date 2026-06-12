@@ -12,9 +12,9 @@ Thumbs.db
 .idea/
 *.sublime-*
 
-# Obsidian vault settings (user-specific)
+# Obsidian and Logseq vault settings (user-specific)
 .obsidian/
-
+logseq/
 # Node/npm (if used)
 node_modules/
 package-lock.json
