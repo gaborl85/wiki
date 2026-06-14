@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "gitbook": {
+      "source": "GitbookIO/public-docs",
+      "sourceType": "github",
+      "skillPath": "gitbook/SKILL.md",
+      "computedHash": "8dcf07a67c24deb9a5a23802639b7903082d9f9b1cc5b756a7de03f9c0ee4468"
+    }
+  }
+}
